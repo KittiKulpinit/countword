@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countword</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <div id="header">
+        <div class="ColorText" id="title">Character Counter</div>
+        <button id="ChangeBGD">☀</button>
+    </div>
+
+    <div id="headtitle" class="ColorText">
+        <div>
+            Anaylze your text
+        </div>
+        <div>
+            in real-time.
+        </div>
+    </div>
+
+    <div id="input">
+        <textarea id="textarea" placeholder="Start typing here...(or paste your text)"></textarea>
+    </div>
+
+    <div id="checkbox">
+        <input type="checkbox" id="ExcludedSpace" name="Checkspace" value="">
+        <label id="Checktext" class="ColorText" for="ExcludedSpace">Excluded-Space</label>
+    </div>
+
+    <div id="Box">
+        <div id="Box1">
+            <div id="displaychar" class="display">0</div>
+            <div class="Text">Total Characters</div>
+        </div>
+        <div id="Box2">
+            <div id="wordcount" class="display">0</div>
+            <div class="Text">Word Count</div>
+        </div>
+        <div id="Box3">
+            <div id="sentencecount" class="display">0</div>
+            <div class="Text">Sentence Count</div>
+        </div>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
